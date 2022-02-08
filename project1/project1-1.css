@@ -1,0 +1,24 @@
+.logo{
+    display:block;
+    width:48px;
+    text-align:center;
+    margin:auto;
+    padding:50px 0px 30px 0px;
+    border-bottom:#e2e2e2 1px solid;
+}
+audio{
+    display:block;
+    margin:auto;
+    padding:100px 0px;
+}
+
+p{
+    padding:50px 0px 0px 0px;
+    color:black;
+    font-family:'Inter', 'sans-serif';
+    font-weight:200;
+    font-size:14px;
+    text-align:center;
+    width:45%;
+    margin:auto;
+}
