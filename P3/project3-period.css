@@ -1,0 +1,97 @@
+body{
+    margin:auto;
+    text-align:left;
+}
+
+.back-button{
+    padding-top:2%;
+    padding-left:5%;
+    padding-bottom:2%;
+    border-bottom:black solid 1px;
+}
+.first-body{
+    width:1200px;
+    margin:auto;
+    text-align:left;
+    display:block;
+    clear:both;
+    content:'';
+}
+.deco{
+    float:left;
+    margin:auto;
+    padding:0 0 0 100px;
+    font-family: 'Tienne', serif;
+    font-size:400px;
+    line-height:0.7;
+}
+.paragraph-1{
+    padding-top:10%;
+    padding-left:24%;
+    padding-bottom:2%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:24px;
+    line-height:1.5;
+    width:800px;
+    color:green;
+}
+.paragraph-2{
+    border-top:black solid 1px;
+    padding-top:2%;
+    padding-bottom:1%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:1000px;
+    margin:auto;
+}
+
+.paragraph-3{
+    padding-top:1%;
+    padding-bottom:1%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:1000px;
+    margin:auto;
+}
+
+.paragraph-4{
+    padding-top:1%;
+    padding-bottom:1%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:1000px;
+    margin:auto;
+}
+.paragraph-last{
+    padding-top:1%;
+    padding-bottom:3%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:1000px;
+    margin:auto;
+}
+.next-button{
+    border-top:black solid 1px;
+    height:100px;
+    position:relative;
+}
+.next{
+    text-align:right;
+    position:absolute;
+    right:5%;
+    top:20%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:20px;
+}
+.next-detail{
+    text-align:right;
+    position:absolute;
+    right:6%;
+    top:45%;
+    font-family:'Pontano sans', sans-serif;
+    font-size:16px;
+}
