@@ -1,0 +1,125 @@
+body{
+    background-color:navy
+}
+h1{
+font-family: 'Merriweather', serif;
+    font-weight:400;
+    font-size:56px;
+    color:white;
+    text-align:center;
+    margin:auto;
+    padding:200px;
+}
+
+.explosion:hover{
+    animation: exp 3s forwards;
+}
+@keyframes exp{
+    from{font-size:56px;}
+    to{font-size:72px;
+    }
+}
+.red:hover{
+    animation:rednoise 1s infinite;
+}
+@keyframes rednoise{
+    from{color:red;}
+    to{color:white;}
+}
+.attack:hover{
+      -webkit-animation: blur 4s ease infinite;
+
+}
+@keyframes blur{
+     0%,
+  90% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  50% {
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+  }
+}
+
+.border:hover{
+    animation:border-create 1s ease forwards;
+}
+@keyframes border-create{
+    0%{border:none;}
+    50%{border-bottom: white solid 1px;}
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        margin:auto;
+    }
+    h1{
+        text-align:center;
+        margin:auto;
+        font-size:48px;
+        width:60%;
+         padding:300px 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) {
+    body{
+        margin:auto;
+    }
+    h1{
+        text-align:center;
+        margin:auto;
+        font-size:30px;
+        width:60%;
+        padding:500px 100px;
+    }
+    .explosion:active{
+    animation: exp 3s forwards;
+}
+@keyframes exp{
+    from{font-size:30px;}
+    to{font-size:56px;
+    }
+}
+.red:active{
+    animation:rednoise 1s 3;
+}
+@keyframes rednoise{
+    from{color:red;}
+    to{color:white;}
+}
+.attack:active{
+      -webkit-animation: blur 4s ease forwards;
+
+}
+@keyframes blur{
+     0%,
+  90% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  50% {
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+  }
+}
+
+.border:active{
+    animation:border-create 1s ease forwards;
+}
+@keyframes border-create{
+    0%{border:none;}
+    50%{border-bottom: white solid 1px;}
+}
+    
+}
