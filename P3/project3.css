@@ -99,6 +99,8 @@ html::-webkit-scrollbar-track{
     font-family:'Tienne', serif;
     font-size:400px;
     line-height:0.7;
+     padding:0px 0 30px 0;
+    text-align:center;
    
 }
 
@@ -127,7 +129,7 @@ a {
 .button{
     font-family:'Tienne', serif;
     font-size:16px;
-    padding:5% 2px 0 20%;
+    padding:5% 2px 0 20px;
     display:inline-block;
 
 
@@ -147,23 +149,23 @@ a {
     font-family:'Tienne', serif;
     font-size:400px;
     line-height:0.8;
-    padding:450px 0 0 0;
-    text-align:left;
+    padding:450px 0 30px 0;
+    text-align:center;
 
 }
 .deco-4{
     font-family:'Tienne', serif;
     font-size:400px;
     line-height:0.8;
-    padding:650px 0 0 0;
-    text-align:left;
+    padding:650px 0 30px 0;
+    text-align:center;
 
 }
 .deco-5{
     font-family:'Tienne', serif;
     font-size:400px;
     line-height:0.8;
-    padding:850px 0 0 0;
-    text-align:left;
+    padding:850px 0 30pc 0;
+    text-align:center;
 
 }
