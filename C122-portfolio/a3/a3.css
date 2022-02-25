@@ -133,3 +133,61 @@ left:6%;
     font-size:54px;
     
 }
+
+@media only screen and (max-width: 720px) {
+    .dear{
+   position:fixed;
+    top:13%;
+left:6%;
+    color:black;
+    font-family: 'made-bon-voyage-regular';
+    font-size:48px;
+    }
+    
+    .stamp{
+    position:absolute;
+    bottom:60px;
+    right:30px;
+    width:140px;
+}
+    .line{
+    display:flex;
+    position:fixed;
+    top:80px;
+    left:0;
+    width:100%;
+    height:1px;
+    background-color:#c3c3c3;
+}
+.left-line{
+    width:140px;
+    height:100%;
+    background-color:black;}
+
+.line-img{
+    position:absolute;
+    top:-70;
+    left:140px;
+}
+    .text-1{
+    position:absolute;
+    top:50%;
+    font-family:"Radley", serif;
+    font-size:16px;
+    
+}
+    .text-2{
+    position:absolute;
+    top:50%;
+    font-family:"Radley", serif;
+    font-size:24px;
+    
+}
+    .text-3{
+    position:absolute;
+    top:50%;
+    font-family:"Radley", serif;
+    font-size:36px;
+    
+}
+}
