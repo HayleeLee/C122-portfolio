@@ -1,3 +1,7 @@
+@font-face {
+  font-family: uncut-sans;
+  src: url(UncutSans-Regular.woff);
+}
 body {
     overflow: overlay;
 }
@@ -26,7 +30,7 @@ html::-webkit-scrollbar-track{
     margin:auto;
     text-align:center;
     padding-top:80px;
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     color:black;
     letter-spacing: 0.5em;
     font-size:28px;
@@ -58,8 +62,8 @@ html::-webkit-scrollbar-track{
 
 .side-bar-header-green{
     writing-mode: vertical-rl;
-    padding:250 0 250px 10;
-    font-family:'Tienne', serif;
+    padding:210 0 614px 10;
+    font-family:'uncut-sans', sans-serif;
     color:green;
     font-size:16px;
     letter-spacing:0.03em;
@@ -70,13 +74,30 @@ html::-webkit-scrollbar-track{
 .side-bar-header-red{
     writing-mode: vertical-rl;
     /*margin-top:400px;*/
-    padding:250px 0 0 10;
-    font-family:'Tienne', serif;
+    padding:260px 0 0 10;
+    font-family:'uncut-sans', sans-serif;
     color:red;
     font-size:16px;
 }
 
-
+/*.side-bar-line{
+    position:absolute;
+    top:1024px;
+    left:0px;
+    width:94%;
+    margin-left:80px;
+    background-color:black;
+    height:0.7px;
+}*/
+/*.side-bar-line2{
+    position:absolute;
+    top:710px;
+    left:0px;
+    width:94%;
+    margin-left:80px;
+    background-color:red;
+    height:0.5px;
+}*/
 .column-container{
   display:block;
     content:'';
@@ -96,11 +117,12 @@ html::-webkit-scrollbar-track{
 }
 
 .deco-1{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.7;
      padding:0px 0 30% 0;
     text-align:center;
+    color:green;
    
 }
 
@@ -127,9 +149,9 @@ a {
 }
 
 .button{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:16px;
-    padding:5% 2px 0 0;
+    padding:-5px 2px 0 0;
     display:inline-block;
 
 
@@ -138,35 +160,39 @@ a {
     width:40px;
 }
 .deco-2{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:1.1;
     padding:80px 0 30px 0;
     text-align:center;
+    color:green;
 
 }
 .deco-3{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.8;
     padding:450px 0 30px 0;
     text-align:center;
+    color:green;
 
 }
 .deco-4{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.8;
     padding:650px 0 30px 0;
     text-align:center;
+    color:red;
 
 }
 .deco-5{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.8;
     padding:850px 0 30px 0;
     text-align:center;
+    color:red;
 
 }
 @media only screen and (max-width: 800px) {
@@ -175,7 +201,7 @@ a {
     display:block;
     content:'';
     clear:both;
-    height:4000px;
+    height:4500px;
 }
     .column-mobile{
         width:80%;
@@ -184,7 +210,7 @@ a {
     .side-bar{
     float:left;
     border-right:black solid 1px;
-    height:4000px;
+    height:4500px;
     width:70px;
 }
 
@@ -215,49 +241,54 @@ a {
 
 }
 .deco-1{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.7;
      padding:0px 0 30% 0;
     text-align:center;
+    color:green;
    
 }
 .deco-2{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:1.1;
     padding:0px 0 30px 0;
     text-align:center;
+    color:green;
 
 }
 .deco-3{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
-    line-height:0.8;
+    line-height:1.2;
     padding:450px 0 30px 0;
     text-align:center;
+    color:green;
 
 }
 .deco-4{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
-    line-height:0.8;
-    padding:650px 0 30px 0;
+    line-height:1.1;
+    padding:850px 0 0px 0;
     text-align:center;
+    color:red;
 
 }
 .deco-5{
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.8;
-    padding:850px 0 30px 0;
+    padding:1050px 0 30px 0;
     text-align:center;
+    color:red;
 
 }
     .side-bar-header-green{
     writing-mode: vertical-rl;
     padding:200 0 1931px 10;
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     color:green;
     font-size:16px;
     letter-spacing:0.03em;
@@ -269,7 +300,7 @@ a {
     writing-mode: vertical-rl;
     /*margin-top:400px;*/
     padding:130px 0 0 10;
-    font-family:'Tienne', serif;
+    font-family:'uncut-sans', sans-serif;
     color:red;
     font-size:16px;
 }

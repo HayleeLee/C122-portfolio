@@ -2,7 +2,6 @@ body{
     margin:auto;
     text-align:left;
 }
-
 a .next{
     text-decoration:none;
     color:black;
@@ -32,7 +31,7 @@ a .back{
     position:fixed;
     top:100px;
     float:left;
-    padding:0 80px 0 80px;
+    padding:130px 80px 0 80px;
     font-family: 'uncut-sans', sans-serif;
     font-size:400px;
     line-height:0.05;
@@ -100,11 +99,6 @@ a .back{
     font-family:'Pontano sans', sans-serif;
     font-size:20px;
 }
-.next a{
-    text-decoration:none;
-    color:black;
-    width:30px;
-}
 .next-detail{
     text-align:right;
     position:absolute;
@@ -115,9 +109,8 @@ a .back{
 }
 .back{
     display:inline-block;
-    width:30px;
+    width:50px;
 }
-
 @media only screen and (max-width: 800px) {
 .first-body{
     display: block;
@@ -126,7 +119,7 @@ a .back{
     position:fixed;
     left:10px;
     float:left;
-    padding:0 40px; 0 10px;
+    padding:80px 40px; 0 10px;
     font-family: 'uncut-sans' sans-serif;
     font-size:400px;
     line-height:0.4;

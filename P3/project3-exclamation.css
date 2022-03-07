@@ -23,7 +23,6 @@ a .back{
     width:60px;
 }
 
-
 .first-body{
     display: flex;
      flex-direction: row;
@@ -32,9 +31,9 @@ a .back{
     position:fixed;
     top:100px;
     float:left;
-    padding:0 80px 0 80px;
+    padding:200px 80px 0 80px;
     font-family: 'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:320px;
     line-height:0.05;
 }
 .paragraph-1{
@@ -47,7 +46,7 @@ a .back{
     font-size:24px;
     line-height:1.5;
     width:400px;
-    color:green;
+    color:red;
 }
 .paragraph-2{
         border-left:#e0e0e0 solid 1px;
@@ -100,11 +99,6 @@ a .back{
     font-family:'Pontano sans', sans-serif;
     font-size:20px;
 }
-.next a{
-    text-decoration:none;
-    color:black;
-    width:30px;
-}
 .next-detail{
     text-align:right;
     position:absolute;
@@ -115,9 +109,8 @@ a .back{
 }
 .back{
     display:inline-block;
-    width:30px;
+    width:50px;
 }
-
 @media only screen and (max-width: 800px) {
 .first-body{
     display: block;
@@ -126,9 +119,9 @@ a .back{
     position:fixed;
     left:10px;
     float:left;
-    padding:0 40px; 0 10px;
-    font-family: 'uncut-sans' sans-serif;
-    font-size:400px;
+  padding:200px 80px 0 20px;
+    font-family: 'uncut-sans', sans-serif;
+    font-size:320px;
     line-height:0.4;
     width:100px;
 }
@@ -154,7 +147,7 @@ left:0px;
     font-size:24px;
     line-height:1.5;
     width:300px;
-    color:green;
+    color:red;
 }
 .paragraph-2{
           border-left:black solid 1px;
