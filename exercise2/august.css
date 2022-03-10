@@ -31,18 +31,41 @@ body{
 }
 .days-list{
     width:1400px;
+    margin:auto;
+    height:40px;
        display:flex;
        flex-wrap:none;
         flex-direction:row;
 }
-.days-list.day{
+.days-list .day{
     font-family:'nimbus-mono', sans-serif;
     font-size:16px;
     padding:10px 0px 0px 10px;
     margin-bottom:10px;
     width:188px;
-    border-left:black solid 1px;
-    height:100px;
+    border-left:#e0e0e0 solid 1px;
+    height:20px;
+    background-color:#fbfbfb;
+}
+.days-list .day:first-child{
+    color:red;
+    font-family:'nimbus-mono', sans-serif;
+    font-size:16px;
+    padding:10px 0px 0px 10px;
+    margin-bottom:10px;
+    width:188px;
+    border-left:#e0e0e0 solid 1px;
+    height:20px;
+}
+.days-list .day:last-child{
+    color:darkcyan;
+    font-family:'nimbus-mono', sans-serif;
+    font-size:16px;
+    padding:10px 0px 0px 10px;
+    margin-bottom:10px;
+    width:188px;
+    border-left:#e0e0e0 solid 1px;
+    height:20px;
 }
 .date{
     font-family:'nimbus-mono', sans-serif;
