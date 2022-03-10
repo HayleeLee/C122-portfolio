@@ -1,0 +1,67 @@
+@font-face {
+  font-family:uncut-sans;
+  src:url(UncutSans-Regular.otf);
+}
+@font-face {
+  font-family:nimbus-mono;
+  src:url(nimbusmono-regular.otf);
+}
+
+body{
+    margin:auto;
+    height:800px;
+}
+.month{
+    text-align:center;
+    margin:50px;
+    font-family:'uncut-sans', sans-serif;
+    font-size:44px;
+}
+.calendar{
+    width:1400px;
+    height:2000px;
+    margin:auto;
+    padding:0px;
+    border-radius:5px;
+    height:100px;
+    display:flex;
+       flex-wrap:wrap;
+        flex-direction:row;
+
+}
+.days-list{
+    width:1400px;
+       display:flex;
+       flex-wrap:none;
+        flex-direction:row;
+}
+.days-list.day{
+    font-family:'nimbus-mono', sans-serif;
+    font-size:16px;
+    padding:10px 0px 0px 10px;
+    margin-bottom:10px;
+    width:188px;
+    border-left:black solid 1px;
+    height:100px;
+}
+.date{
+    font-family:'nimbus-mono', sans-serif;
+    font-size:16px;
+    padding:10px 0px 0px 10px;
+    margin-bottom:10px;
+    width:188px;
+    border-left:black solid 1px;
+    height:100px;
+flex-direction:row;
+}
+.date1{
+    font-family:'nimbus-mono', sans-serif;
+    font-size:16px;
+    padding:10px 0px 0px 10px;
+    width:188px;
+  color:#d8d8d8;
+    border-left:black solid 1px;
+
+    height:100px;
+flex-direction:row;
+}
