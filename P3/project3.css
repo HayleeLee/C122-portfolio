@@ -59,25 +59,31 @@ html::-webkit-scrollbar-track{
     height:10%;
     background-color:black;
 }
+.side-bar{
+    position:fixed;
+}
 
 .side-bar-header-green{
+    position:sticky;
     writing-mode: vertical-rl;
-    padding:210 0 614px 10;
+    padding:50 0 120px 10;
     font-family:'uncut-sans', sans-serif;
-    color:green;
+    color:black;
     font-size:16px;
     letter-spacing:0.03em;
     border-bottom:black solid 1px;
 
+
     
 }
 .side-bar-header-red{
+    position:sticky;
     writing-mode: vertical-rl;
     /*margin-top:400px;*/
-    padding:260px 0 0 10;
+    padding:180px 0 0 10;
     font-family:'uncut-sans', sans-serif;
-    color:red;
-    font-size:16px;
+    color:#aeaeae;
+    font-size:10px;
 }
 
 /*.side-bar-line{
@@ -115,14 +121,22 @@ html::-webkit-scrollbar-track{
     border-right:#e0e0e0 solid 1px;
     
 }
+.column1{
+    float:left;
+    height:100%;
+    padding:0px 20px 0 20px;
+    width:3%;
+    border-right:none;
+    
+}
 
 .deco-1{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:600px;
     line-height:0.7;
      padding:0px 0 30% 0;
     text-align:center;
-    color:green;
+    color:black;
    
 }
 
@@ -161,38 +175,38 @@ a {
 }
 .deco-2{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:300px;
     line-height:1.1;
-    padding:80px 0 30px 0;
+    padding:180px 0 30px 0;
     text-align:center;
-    color:green;
+    color:#494949;
 
 }
 .deco-3{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:160px;
     line-height:0.8;
-    padding:450px 0 30px 0;
+    padding:500px 0 30px 0;
     text-align:center;
-    color:green;
+    color:#808080;
 
 }
 .deco-4{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:90px;
     line-height:0.8;
     padding:650px 0 30px 0;
     text-align:center;
-    color:red;
+    color:#e5e5e5;
 
 }
 .deco-5{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:50px;
     line-height:0.8;
     padding:850px 0 30px 0;
     text-align:center;
-    color:red;
+    color:#e9e9e9;
 
 }
 @media only screen and (max-width: 800px) {
@@ -207,6 +221,14 @@ a {
         width:80%;
         float:left;    
     }
+    .column1{
+    float:left;
+    height:100%;
+    padding:0px 20px 0 20px;
+    width:10%;
+    border-right:none;
+    
+}
     .side-bar{
     float:left;
     border-right:black solid 1px;
@@ -242,67 +264,72 @@ a {
 }
 .deco-1{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:800px;
     line-height:0.7;
      padding:0px 0 30% 0;
     text-align:center;
-    color:green;
+    color:black;
    
 }
 .deco-2{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:300px;
     line-height:1.1;
-    padding:0px 0 30px 0;
+    padding:300px 0 30px 0;
     text-align:center;
-    color:green;
+    color:#494949;
 
 }
 .deco-3{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:200px;
     line-height:1.2;
     padding:450px 0 30px 0;
     text-align:center;
-    color:green;
+    color:#808080;
 
 }
 .deco-4{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:100px;
     line-height:1.1;
     padding:850px 0 0px 0;
     text-align:center;
-    color:red;
+    color:#e5e5e5;
 
 }
 .deco-5{
     font-family:'uncut-sans', sans-serif;
-    font-size:400px;
+    font-size:80px;
     line-height:0.8;
     padding:1050px 0 30px 0;
     text-align:center;
-    color:red;
+    color:#e9e9e9;
 
 }
-    .side-bar-header-green{
+   .side-bar-header-green{
+    position:sticky;
     writing-mode: vertical-rl;
-    padding:200 0 1931px 10;
+    padding:50 0 120px 10;
     font-family:'uncut-sans', sans-serif;
-    color:green;
+    color:black;
     font-size:16px;
     letter-spacing:0.03em;
     border-bottom:black solid 1px;
 
+
     
 }
 .side-bar-header-red{
+    position:sticky;
     writing-mode: vertical-rl;
     /*margin-top:400px;*/
-    padding:130px 0 0 10;
+    padding:180px 0 0 10;
     font-family:'uncut-sans', sans-serif;
-    color:red;
-    font-size:16px;
+    color:#aeaeae;
+    font-size:10px;
+}
+
 }
     
 }

@@ -37,7 +37,7 @@ a .back{
     line-height:0.05;
 }
 .paragraph-1{
-    border-left:black solid 1px;
+    border-left:#494949 solid 1px;
     margin-left:220px;
     padding-left:2%;
     padding-bottom:2%;
@@ -46,7 +46,7 @@ a .back{
     font-size:24px;
     line-height:1.5;
     width:400px;
-    color:green;
+    color:black;
 }
 .paragraph-2{
         border-left:#e0e0e0 solid 1px;
@@ -147,7 +147,7 @@ left:0px;
     font-size:24px;
     line-height:1.5;
     width:300px;
-    color:green;
+    color:#494949;
 }
 .paragraph-2{
           border-left:black solid 1px;
