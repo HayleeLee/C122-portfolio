@@ -1,0 +1,56 @@
+@font-face {
+  font-family:neuton;
+  src:url(Neuton-SC-Regular.ttf);
+}
+@font-face {
+  font-family:neuton-light;
+  src:url(Neuton-SC-Light.ttf);
+}
+body{
+    width:1200px;
+    margin:auto;
+    margin-top:100px;
+    position:relative;
+}
+
+.header{
+    font-family:'neuton';
+    font-size:48px;
+    line-height:2.8px;
+    
+}
+
+.description{
+
+     font-family:'Tienne', serif;
+    font-size:16px;
+    border-bottom:black solid 1px;
+}
+.center-buttons{
+margin-top:60px;
+    bottom:10px;
+    width:300px;
+    display: flex;
+    flex-direction:row;
+    
+}
+.button{
+    font-family:'neuton';
+    text-align:center;
+    width:160px;
+    height:20px;
+    padding: 4px;
+    border-bottom:black solid 1px;
+}
+
+.button1{
+    margin-left:10px;
+        font-family:'neuton';
+    text-align:center;
+    writing-mode: vertical-rl;
+    width:10px;
+    height:300px;
+    padding-left:18px;
+    border-left:black solid 1px;
+}
+
