@@ -1,0 +1,70 @@
+body{
+    background-color:antiquewhite
+}
+*{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+
+img {
+	width: 280px;
+	position: absolute;
+}
+
+.scrambled {
+	top: 30%;
+	left: 30%;
+}
+
+.boiled {
+	top: 30%;
+	left: 5%;
+}
+
+.raw {
+	top: 30%;
+	left: 55%;
+
+}
+
+.fried {
+	top: 30%;
+	left: 80%;
+}
+
+h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:red;
+	background:yellow;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:28px;
+	margin:14px;
+    color:orange;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
