@@ -179,7 +179,7 @@ var n = 0;
 var txt16 = 'Not Implemented';
 var speed = 50;
 function typeWriter16() {
-  if (l< txt16.length) {
+  if (n< txt16.length) {
     document.getElementById("demo16").innerHTML += txt16.charAt(n);
     n++;
     setTimeout(typeWriter16, speed);
