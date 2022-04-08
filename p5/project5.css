@@ -1,0 +1,133 @@
+@font-face {
+  font-family:necto-mono;
+  src:url(Necto-Mono.woff);
+}
+@font-face {
+  font-family:neuton-light;
+  src:url(Neuton-Light.ttf);
+}
+@font-face {
+  font-family:neuton-regular;
+  src:url(Neuton-Regular.ttf);
+}
+body{
+    background-color:#454545;
+}
+/*.banner{
+    text-align:center;
+    margin:auto;
+    position:absolute;
+    top:200px;
+    width:100%;
+    height:340px;
+    background-color:yellow;
+}
+.banner-title{
+     font-family:'neuton-light';
+    font-size:56px;
+    padding:0px;
+}
+.description-1{
+    font-family:'necto-mono';
+    
+}
+.description-2{
+    font-family:'neuton-regular';
+    
+}*/
+/*button{
+    margin:auto;
+    border:black solid 1px;
+    width:100px;
+    padding:8px 0px;
+    font-family:'necto-mono';
+    font-size:12px;
+    text-align:center;
+}*/
+
+.container{
+    margin:auto;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.card{
+    background-color:white;
+    width:19%;
+    margin:8px 2px 8px 8px;
+     box-shadow:0px 4px 2px black;
+    position:relative;
+}
+.card-top{
+    display:flex;   
+    flex-direction:row;
+    height:20px;
+    border-bottom:black solid 1px;
+    
+}
+.red-button{
+    margin:8px 2px 8px 8px;
+    border-radius:16px;
+    width:8px;
+    height:8px;
+    background-color:red;
+}
+.green-button{
+    margin:8px 2px;
+    border-radius:16px;
+    width:8px;
+    height:8px;
+    background-color:green;
+}
+
+.yellow-button{
+    margin:8px 2px;
+    border-radius:16px;
+    width:8px;
+    height:8px;
+    background-color:yellow;
+}
+
+.random-title{
+    font-family:'neuton-regular';
+    font-size:16px;
+    padding:4px 0px 2px 8px;
+}
+.random-body{
+    font-family:'necto-mono';
+    font-size:12px;
+    padding:0px 4px 0px 8px;
+}
+#button{
+    position:absolute;
+    background-color:white;
+    bottom:8px;
+    right:8px;
+    border:black solid 1px;
+    width:100px;
+    padding:8px 0px;
+    font-family:'necto-mono';
+    font-size:12px;
+    text-align:center;
+}
+#demo{
+    font-family:'necto-mono';
+    font-size:12px;
+    padding:4px 0px 2px 8px;
+}
+.button{
+    position:absolute;
+    bottom:8px;
+    right:8px;
+    border:black solid 1px;
+    width:100px;
+    padding:8px 0px;
+    font-family:'necto-mono';
+    font-size:12px;
+    text-align:center;
+}
+.warning{
+    display:none;
+}
