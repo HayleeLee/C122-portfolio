@@ -120,13 +120,13 @@ function typeWriter10() {
   }
 }
 
-var x = 0;
+var y = 0;
 var txt11 = 'Method Not Allowed';
 var speed = 50;
 function typeWriter11() {
-  if (x< txt11.length) {
-    document.getElementById("demo11").innerHTML += txt11.charAt(x);
-    x++;
+  if (y< txt11.length) {
+    document.getElementById("demo11").innerHTML += txt11.charAt(y);
+    y++;
     setTimeout(typeWriter11, speed);
   }
 }
