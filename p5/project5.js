@@ -168,7 +168,7 @@ var m = 0;
 var txt15 = 'Server Error';
 var speed = 50;
 function typeWriter15() {
-  if (l< txt15.length) {
+  if (m< txt15.length) {
     document.getElementById("demo15").innerHTML += txt15.charAt(m);
     m++;
     setTimeout(typeWriter15, speed);
