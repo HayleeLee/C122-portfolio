@@ -204,10 +204,13 @@ width:100%;
 
 }
 .black{
+    position:sticky;
+    top:0px;
+    right:0px;
   margin-left:10%;
     height:100px;
     background-color:black;
-    width:90%;
+    width:100%;
 }
 .black-link{
     display:inline-block;
