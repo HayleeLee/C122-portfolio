@@ -13,21 +13,75 @@
 </head>
     
 <body>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const channel = 'photos-sent-by-others';
+
+        fetch(`https://api.are.na/v2/channels/${channel}?per=100`, {cache: 'no-store'})
+          .then(response => response.json())
+          .then(data => {
+            console.log(data);
+            renderTitle(data);
+            
+            renderBlocks(data);
+          });
+        
+      });
+        
+
+        
+         const renderBlocks = (data) => {
+            console.log(data);
+            let blocks = data ['contents'];
+            blocks.forEach((block) => {
+                let blockClass = block['class'];
+                if (blockClass =='Image'){
+                    renderImage(block);
+                }
+                 console.log(blockClass);
+             })
+             
+            
+        }
+         const renderImage = (block) => {
+             let imageUrl = block['image']['display']['url'];
+            console.log(imageUrl);
+             let imageBlockTemplate = document.getElementById('image-container');
+             let clone = image-container.content.cloneNode(true);
+             
+             clone.querySelector('img').src = imageUrl;
+             
+             document.getElementById('contents').appendChild(clone);
+             
+            };
+    </script>
     <div class="container">
-        <img src="border-left.png" class="left">
-        <img src="border-right.png" class="right">
+        <div class="header">
+            <h1 class="title">Photos for Animal Lovers</h1>
+             <h2 class="Question">What photos do you send to animal lovers to make them happy?</h2>
+            
+
+        
+        </div>
+        <img src="Group%206.png" class="left"><img src="zoo1.png" class="left-1">
+        <img src="Group%207.png" class="right"><img src="zoo2.png" class="right-1">
 
         <div class="container-left">
             <div class="left-content">
                 
-                <h3 class="do"><span class="green">APPROPRIATE</span> to send, if intended to inform</h3>
-                <div class="image-green-container">
-                    <div class="image-green">
-                        <div class="description-1">
+                
+               <h3 class="do"> <input type="checkbox" id="animal1" name="animal1" value="animal-love">   Photos that will make animal lovers  <span class="green">HAPPY</span></h3>
+                <template id="image-container">
+                    <li class="image-1"><img class="image" src=""></li>
+                    
+                </template>
+                <!--<div class="image-green-container">
+                   <!-- <div class="image-green">
+                       <!-- <div class="description-1">
                         Photo is indicative of a product to buy
                         </div>
                     </div>
-                </div>
+                </div>-->
                 
             </div>
         </div>
@@ -35,27 +89,24 @@
             
             <div class="right-content">
                 
-                <h3 class="do"><span class="red">DON’T</span> send your boss informal or vague images</h3>
+                <h3 class="do"><input type="checkbox" id="animal2" name="animal2" value="animal-hate">   Photos that will make animal lovers <span class="red">BORED</span></h3>
                 
-                 
-                <div class="image-red-container">
+                 <div class="image-container">
+                <div class="image"></div>
+                    
+                </div>
+               <!-- <div class="image-red-container">
                     <div class="image-red">
-                        <div class="description">
+                        <!--<div class="description">
                         Photo gives receiver confusion on how to react
                         </div>
                     </div>
-                </div>
+                </div>-->
                 
             </div>
         </div>
         
-        <div class="header">
-            <h1 class="title">Photo Etiquettes</h1>
-             <h2 class="Question">What photos can you send to your boss?</h2>
-            <p class="body">Here are some comparisons of images that are more appropriate to send to your boss at work vs images you should not send to your boss</p>
-
         
-        </div>
     
     </div>
     

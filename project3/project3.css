@@ -15,11 +15,28 @@
   src:url(Necto-Mono.woff);
 }
 
+@font-face {
+  font-family:nippo-bold;
+  src:url(Nippo-Bold.tff);
+}
+@font-face {
+  font-family:nippo-medium;
+  src:url(Nippo-Medium.tff);
+}
+@font-face {
+  font-family:nippo-light;
+  src:url(Nippo-Light.tff);
+}
+@font-face {
+  font-family:pixeboy;
+  src:url(Pixeboy.tff);
+}
+
 
 .container{
     width:100%;
-    border-left:black solid 5px;
-    border-right:black solid 5px;
+    border-left:black solid 30px;
+    border-right:black solid 30px;
     border-top:black solid 30px;
 
     height:100vh;
@@ -35,17 +52,32 @@
     left:0px;
 }
 
+.left-1{
+    display:block;  
+    height:100vh;
+
+    writing-mode: vertical-rl;
+    position:absolute;
+    left:30px;
+}
+
 .right{
     display:block;
     height:100vh;
     position:absolute;
     right:0px;
 }
+.right-1{
+    display:block;
+    height:100vh;
+    position:absolute;
+    right:30px;
+}
 
 .container-left{
     width:50%;
     position:relative;
-    border-right:3px solid black;
+    border-right:2px dashed black;
 }
 
 .container-right{
@@ -54,61 +86,71 @@
 
 }
 .header{
-    background-color:yellow;
-    border:black solid 4px;
+    background-color:black;
     padding:20px;
     position:absolute;
     top:-20px;
     text-align:center;
-    left:20%;
+    left:10%;
+
+    width:1200px;
 }
 .header .title{
-    font-family:'zilla-slab-regular';
-    font-size:48px;
+    font-family:'pixeboy';
+    font-size:56px;
     line-height:1.0;
+    color:white;
 }
 
 .header .Question{
-    font-family:'necto-mono';
-    font-size:16px;
+    font-family:'nippo-light';
+    font-weight:100;
+    font-size:20px;
     line-height:1.0;
+    color:white;
 }
-.header .body{
-    font-family:'zilla-slab';
-    font-size:14px;
-    line-height:1.0;
-}
+
 
 .left-content{
     position:absolute;
-    right:80px;
-    top:260px;
+    left:160px;
+    top:180px;
 }
 
 .right-content{
     position:absolute;
     left:80px;
-    top:260px;
+    top:180px;
 }
 
 .do{
-       font-family:'zilla-slab';
-    font-size:18px;
+       font-family:'nippo-light';
+    font-weight:100;
+    font-size:16px;
     line-height:1.6;
-    border-top:black solid 2px;
-    border-bottom:black solid 2px;
+    color:white;
+    background-color:black;
+    padding:10px 10px;
 
 }
 .do .green{
-    font-family:'skelementary';
+    font-family:'nippo-bold';
     color:forestgreen;
 }
 
 .do .red{
-    font-family:'skelementary';
+    font-family:'nippo-bold';
     color:red;
 }
-
+#image-container{
+    display:flex;
+    width:100%;
+}
+.image{
+    width:200px;
+    height:300px;
+    border:black solid 2px;
+}
 
 .image-green-container{
    position:relative;
