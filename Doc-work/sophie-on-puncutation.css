@@ -1,0 +1,90 @@
+@font-face {
+  font-family:arial-regular;
+  src:url(arial.ttf);
+}
+@font-face {
+  font-family:arial-italic;
+  src:url(arial-corsivo-2.ttf);
+}
+@font-face {
+  font-family:arial-bold;
+  src:url(arialbd.ttf);
+}
+@font-face {
+  font-family:neuton-regular;
+  src:url(neuton-regular.ttf);
+}
+
+body{
+    width:100%;
+    position:relative;
+    background-color:#e5e5e5;
+}
+.right-header{width:100%;
+    position:absolute;
+    top:-10px;
+    left:10px;
+    border-bottom:black solid 1px;
+    color:black;
+}
+.title-left{
+    font-family:arial-regular;
+           letter-spacing:2px;
+    font-size:50px;
+    line-height:0;
+}
+.description{
+    font-family:neuton-regular;
+    font-size:20px;
+}
+.reading-name{
+    font-family:arial-bold;
+    font-size:20px;
+}
+
+.title-right{
+    position:absolute;
+       letter-spacing:2px;
+
+    top:-10px;
+    right:10px;
+     font-family:neuton-regular;
+    font-weight:100;
+    font-size:30px;
+    line-height:0;
+}
+.section{
+    
+padding:200px 0px 100px 0px;
+border-bottom:black solid 1px;
+    display:flex;
+}
+.section-1{
+    
+padding:100px 0px 100px 0px;
+border-bottom:black solid 1px;
+    display:flex;
+}
+.website{
+    display:block;
+    width:1800px;
+    margin:auto;
+}
+.website-1{
+    display:block;
+    width:1800px;
+    margin:auto;
+    padding:50px 0px;
+}
+.section-title{
+      font-family:arial-italic;
+    font-size:20px;
+    font-weight:100;
+    line-height:0;
+   letter-spacing:1px;
+     writing-mode: vertical-rl;
+    
+}
+.images{
+    margin:auto;
+}
