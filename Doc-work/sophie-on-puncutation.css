@@ -30,27 +30,35 @@ body{
 .title-left{
     font-family:arial-regular;
            letter-spacing:2px;
-    font-size:50px;
+    padding-top:10px;
+    font-size:20px;
     line-height:0;
 }
 .description{
     font-family:neuton-regular;
-    font-size:20px;
+    font-size:16px;
 }
 .reading-name{
     font-family:arial-bold;
-    font-size:20px;
+    font-size:16px;
+    text-decoration:none;
+    color:red;
+
 }
+a:link { text-decoration: none; color:black; }
+a:visited { text-decoration: none; color:black;}
+a:hover { text-decoration: none; color:black;}
+a:active { text-decoration: none; color:black;}
 
 .title-right{
     position:absolute;
        letter-spacing:2px;
 
-    top:-10px;
+    top:5px;
     right:10px;
      font-family:neuton-regular;
     font-weight:100;
-    font-size:30px;
+    font-size:20px;
     line-height:0;
 }
 .section{
@@ -67,18 +75,19 @@ border-bottom:black solid 1px;
 }
 .website{
     display:block;
-    width:1800px;
+    width:1200px;
     margin:auto;
 }
 .website-1{
     display:block;
-    width:1800px;
+    width:1200px;
     margin:auto;
     padding:50px 0px;
 }
 .section-title{
       font-family:arial-italic;
-    font-size:20px;
+    font-size:16px;
+    margin-left:20px;
     font-weight:100;
     line-height:0;
    letter-spacing:1px;
