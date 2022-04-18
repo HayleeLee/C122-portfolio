@@ -182,10 +182,13 @@ width:100%;
     padding-right:10px;
 }
 .title-kr{
+    line-height:26px;
     font-family:'gowun';
     font-size:20px;
 }
 .title-eng{
+        line-height:26px;
+
     padding-bottom:10px;
     font-family:'neuton-light';
     font-size:20px;
