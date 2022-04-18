@@ -182,24 +182,22 @@ width:100%;
     padding-right:10px;
 }
 .title-kr{
-    line-height:0.5px;
     font-family:'gowun';
     font-size:20px;
 }
 .title-eng{
-        line-height:0.5px;
-
+    padding-bottom:10px;
     font-family:'neuton-light';
     font-size:20px;
 }   
 .description-kr{
          font-family:'gowun';
-    font-size:14px;
+    font-size:12px;
 
 }
 .description-eng{
        font-family:'neuton-light';
-    font-size:16px;
+    font-size:15px;
 
 }
 .black{
@@ -281,7 +279,7 @@ text-decoration:none;
     padding-top:10px;
 }
 .content-1-1{
-    margin-top:20px;
+    margin-top:40px;
     margin-bottom:20px;
     width:500px;
     padding-left:10px;
@@ -314,7 +312,7 @@ text-decoration:none;
 }
 .content-text-1{
     width:100%;
-    padding-top:30px;
+    padding-top:40px;
      font-family:'gowun';
     font-size:14px;
     width:400px;

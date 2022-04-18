@@ -11,6 +11,30 @@
     <title>Project5</title>
     </head>
 <body>
+    <script>
+    window.addEventListener("load", function() {
+    document.getElementById("sound-button-1").addEventListener("click", playSound1);
+
+    function playSound1() {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+    }
+    
+       document.getElementById("sound-button-2").addEventListener("click", playSound2);
+
+    function playSound2() {
+        var audio = document.getElementById("myAudio2");
+        audio.play();
+    }
+         document.getElementById("sound-button-3").addEventListener("click", playSound3);
+
+    function playSound3() {
+        var audio = document.getElementById("myAudio3");
+        audio.play();
+    }
+    })
+    
+    </script>
     <div class="all">
      
         <div class="sticky-header">
@@ -60,12 +84,13 @@
         </div>
             <div class="container-header">
                 <div class="info">
-                    <h2 class="title-kr">한글날</h2>
-                    <p class="description-eng">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis sapien vitae orci vehicula, sit amet auctor q</p>
+                    <h2 class="title-kr">한<br>글<br>날</h2>
+                    <p class="description-eng">'Hangul Day'(한글날) written in the korean alphabet, 'Hangul.' Read left column below to know more about the written construction of the letter</p>
                 </div>
                 <div class="info-2">
-                    <h2 class="title-eng">Hangul Day</h2>
-                    <p class="description-kr">못하다 우리의 이것이야말로 착목한는 이것이다. 무엇을 관현악이며, 청춘 풀밭에 것은 앞이 가슴이 이것이다. 능히</p>
+                    <h2 class="title-eng">Han<br>-gul<br>Day</h2>
+                    <p class="description-eng">English transcription of 'Hangul Day'
+(한글날)'s  Korean pronounciation. Read right column below to know more about how to exactly pronounce each letter of the word.</p>
                 </div>
             </div>
             
@@ -74,11 +99,11 @@
                     <img src="han-outline.png" class="outline">
                     <img src="han.png" class="kr-word">
                     <div class="content-text">
-                        1. The top: <span>ㅎ</span><br>
-                        2. The phonetic: <span>ㅏ</span><br>
-                        3. The vowel: <span>ㄴ</span><br><br>
+                        a. consonant: <span>ㅎ</span><br>
+                        b. vowels: <span>ㅏ</span><br>
+                        c. Final  consonant: <span>ㄴ</span><br><br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis sapien vitae orci vehicula, sit amet auctor 
+                        The first consonant, with its 'H' sound and 'ah' sounding vowel, and ending '-n' sounding consonant is altogether pronounced as 'H-ah-n', 'Han'
                     
                     </div>
                     <img src="bars-empty.png" class="end-border">
@@ -87,9 +112,14 @@
                 </div>
                  <div class="content-1-1">
                 <div class="bg-content"><img src="bg-line.png">
-                 <div class="eng-pronoun"><img src="speaker.svg">[Han]</div>
+                    
+                 <div class="eng-pronoun">
+                     <audio id="myAudio" src="Han.m4a" preload="auto"></audio>
+                     <img src="speaker.svg" id="sound-button-1">[Han]</div>
                     <div class="content-text-1">
-                      못하다 우리의 이것이야말로 착목한는 이것이다. 무엇을 관현악이며, 청춘 풀밭에 것은 앞이 가슴이 이것이다. 능히 이 때까지 커다란 기쁘며, 얼마나 굳세게 그들의 것이다. 같은 어디 반짝이는 그들에게 듣기만 할지니, 같은 말이다. 놀이 청춘 산야에 끓는 이는 든 현저하게 되는 무엇을 보라. 무한한 남는 얼음 많이 하였으며, 끓는다. 실현에 우리는 그들에게 설산에서 이상, 안고, 이상의 수 긴지라 위하여서 보라.
+                     어떤가요? 맞게 발음하셨나요?<br><br>
+                        '한글날'의 '한' 발음을 할때에는 끝 발음인 'ㄴ'('-n')을 확실하게 발음하는 것이 중요합니다. '한글날' 의 첫번째 글자인 만큼 최대한 '한', 'Han'을 빠르게 말하고 다음 글자로 옯기는 것이 중요합니다.
+                        <br><br>
 
                     </div>
                     <img src="bars-2-short.png" class="end-border"> 
@@ -100,11 +130,11 @@
                     <img src="guel-outline.png" class="outline">
                     <img src="guel.png" class="kr-word">
                     <div class="content-text">
-                        1. The top: <span>ㄱ</span><br>
-                        2. The phonetic: <span>ㅡ</span><br>
-                        3. The vowel: <span>ㄹ</span><br><br>
+                        a. consonant: <span>ㄱ</span><br>
+                        b. vowels: <span>ㅡ</span><br>
+                        c. Final  consonant: <span>ㄹ</span><br><br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis sapien vitae orci vehicula, sit amet auctor 
+                        The first consonant, with its 'G' sound and 'eu' sounding vowel, and ending '-ul' sounding consonant is altogether pronounced as 'G-eu-ul', 'Guel'
                     
                     </div>
                     <img src="bars-empty.png" class="end-border">
@@ -113,10 +143,11 @@
                 </div>
                 <div class="content-1-1">
                 <div class="bg-content"><img src="bg-line.png">
-                 <div class="eng-pronoun"><img src="speaker.svg">[Guel]</div>
+                 <div class="eng-pronoun"> <audio id="myAudio2" src="Guel.m4a" preload="auto"></audio><img src="speaker.svg" id="sound-button-2">[Guel]</div>
                     <div class="content-text-1">
-                      못하다 우리의 이것이야말로 착목한는 이것이다. 무엇을 관현악이며, 청춘 풀밭에 것은 앞이 가슴이 이것이다. 능히 이 때까지 커다란 기쁘며, 얼마나 굳세게 그들의 것이다. 같은 어디 반짝이는 그들에게 듣기만 할지니, 같은 말이다. 놀이 청춘 산야에 끓는 이는 든 현저하게 되는 무엇을 보라. 무한한 남는 얼음 많이 하였으며, 끓는다. 실현에 우리는 그들에게 설산에서 이상, 안고, 이상의 수 긴지라 위하여서 보라.
-
+                    <br> 어떤가요? 맞게 발음하셨나요?<br><br>
+                        '한글날'의 '글' 발음을 할때에는 끝 발음인 'ㄴ'('-ul')을 혀에 끌면서 하는 것이 중요합니다. '한글날' 의 두번째 글자인 만큼 '글', 'guel'을 앞글자인 '한'보다 길게 말해서 'ㄹ'의 발음을 확실하게 하는것이 중요합니다. 
+                        <br><br>
                     </div>
                     <img src="bars-3-medium.png" class="end-border"> 
                      </div>
@@ -127,11 +158,11 @@
                     <img src="naal-outline.png" class="outline">
                     <img src="naal.png" class="kr-word">
                     <div class="content-text">
-                        1. The top: <span>ㄴ</span><br>
-                        2. The phonetic: <span>ㅏ</span><br>
-                        3. The vowel: <span>ㄹ</span><br><br>
+                        a. consonant: <span>ㄴ</span><br>
+                        b. vowels: <span>ㅏ</span><br>
+                        c. Final  consonant: <span>ㄹ</span><br><br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis sapien vitae orci vehicula, sit amet auctor 
+                        The first consonant, with its 'N' sound and 'ah' sounding vowel, and ending '-ul' sounding consonant is altogether pronounced as 'N-ah-ul', 'Naal' 
                     
                     </div>
                     <img src="bars-empty.png" class="end-border">
@@ -140,9 +171,12 @@
                 </div>
                 <div class="content-1-1">
                 <div class="bg-content"><img src="bg-line.png">
-                 <div class="eng-pronoun"><img src="speaker.svg">[Naal]</div>
+                 <div class="eng-pronoun"><audio id="myAudio3" src="Naal.m4a" preload="auto"></audio><img src="speaker.svg" id="sound-button-3">[Naal]</div>
                     <div class="content-text-1">
-                      못하다 우리의 이것이야말로 착목한는 이것이다. 무엇을 관현악이며, 청춘 풀밭에 것은 앞이 가슴이 이것이다. 능히 이 때까지 커다란 기쁘며, 얼마나 굳세게 그들의 것이다. 같은 어디 반짝이는 그들에게 듣기만 할지니, 같은 말이다. 놀이 청춘 산야에 끓는 이는 든 현저하게 되는 무엇을 보라. 무한한 남는 얼음 많이 하였으며, 끓는다. 실현에 우리는 그들에게 설산에서 이상, 안고, 이상의 수 긴지라 위하여서 보라.
+                        어떤가요? 맞게 발음하셨나요?<br><br>
+                        '한글날'의 '날' 발음을 할때에는 전체적인 발음을 모두 짚어서 'naal'의 'ㄹ' 발음을 살리는 것이 중요합니다. '한글날' 의 마지막 글자인 만큼 '날' ('naal')을 최대한 오래 발음하는 것이 중요합니다.
+                        <br>
+                        <br>
 
                     </div>
                     <img src="bars-1-long.png" class="end-border"> 
