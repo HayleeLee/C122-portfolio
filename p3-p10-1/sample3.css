@@ -1,0 +1,151 @@
+@font-face {
+  font-family:arial-regular;
+  src:url(arial.ttf);
+}
+@font-face {
+  font-family:arial-italic;
+  src:url(arial-corsivo-2.ttf);
+}
+@font-face {
+  font-family:neuton-bold;
+  src:url(Neuton-Bold.ttf);
+}
+@font-face {
+  font-family:neuton-regular;
+  src:url(neuton-regular.ttf);
+}
+@font-face {
+  font-family:nippo-light;
+  src:url(Nippo-Light.ttf);
+}
+@font-face {
+  font-family:nippo-medium;
+  src:url(Nippo-Medium.ttf);
+}
+.captions{
+    position:relative;
+    width:100%;
+    margin:10px;
+    border-bottom:2px solid black;
+}
+
+.caption1{
+    position:absolute;
+    font-family:nippo-light;
+
+    font-size:12px;
+    top:0px;
+    left:10px;
+}
+.caption2{
+        font-size:12px;
+    font-family:nippo-light;
+    position:absolute;
+    top:0px;
+    right:20px;
+}
+.title{
+    padding-top:20px;
+    margin:auto;
+    text-align:center;
+}
+.title1{
+    font-family:nippo-light;
+    font-weight:100;
+    font-size:17px;
+    line-height: 1.5;
+    width:700px;
+    border-bottom:solid black 1px;
+margin:auto;
+}
+
+.title2{
+    font-family:arial-regular;
+    font-size:11px;
+    padding-bottom:10px;
+    border-bottom:black solid 1px;
+}
+.title2 span{
+    font-family:arial-regular;
+    font-size:11px;
+    padding: 0 20px;
+    border-right:solid 1px black;
+
+}
+.title2 span:first-child{
+    border-left:solid 1px black;
+}
+.description{
+     margin:auto;
+    font-family:nippo-light;
+    font-size:10px;
+width:400px;
+}
+.entrance{
+    background-color:white;
+    border:black solid 2px;
+    padding:10px;
+    font-family:nippo-medium;
+    margin-top:20px;
+    margin-left:43.5%;
+    display:inline-block;
+}
+
+.entrance a{
+    text-decoration: none;
+    color:black;
+}
+.block_image_caption{
+    font-family:arial-regular;
+    font-size:12px;
+    border-top:black solid 1px;
+    padding: 5px 0px;
+    border-bottom:black solid 1px;
+
+}
+:root {
+        --margin: 10px;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        width: 100%;
+        background-color: white;
+        font-family: Helvetica, sans-serif;
+      }
+
+      .wrapper {
+        margin: var(--margin);
+        padding:0 20px;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      h1 {
+        color: white;
+      }
+      
+      #contents {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-gap: var(--margin);
+        align-items: start;
+        justify-items: start;
+        padding: 0;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .block {
+        padding: var(--margin);
+        background-color: white;
+      }
