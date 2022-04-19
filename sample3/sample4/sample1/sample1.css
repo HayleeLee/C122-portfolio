@@ -1,0 +1,45 @@
+ :root {
+        --margin: 10px;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        width: 100%;
+        background-color: white;
+        font-family: Helvetica, sans-serif;
+      }
+
+      .wrapper {
+        margin: var(--margin);
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      h1 {
+        color: white;
+      }
+      
+      #contents {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-gap: var(--margin);
+        align-items: start;
+        justify-items: start;
+        padding: 0;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .block {
+        padding: var(--margin);
+        background-color: white;
+      }
