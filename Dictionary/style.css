@@ -73,7 +73,7 @@ body {
     left:-10px;
 }
 .container {
-    background-color: #808080;
+    background-color: #A5AAA8;
     width: 40%;
     padding: 50px 30px;
 }
@@ -144,13 +144,13 @@ body {
     justify-content: space-between;
 }
 ::placeholder{
-    color:#31377C;
+    color:#000000;
 }
 .search-box input {
     padding: 5px;
     width: 70%;
     border: none;
-    background-color:#808080;
+    background-color:#A5AAA8;
     outline: none;
     border-bottom: 1px solid #000000;
     color:#FFE142;
