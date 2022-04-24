@@ -144,7 +144,7 @@ body {
     justify-content: space-between;
 }
 ::placeholder{
-    color:#6A7E7C;
+    color:#000000;
 }
 .search-box input {
     padding: 5px;
