@@ -92,6 +92,15 @@ body {
     font-size:20px;
     color:#FFE142;
 }
+
+.title-2 span{
+    font-family:wingding;
+    font-size:20px;
+        color:#FFE142;
+    width:600px;
+    padding-bottom:20px;
+
+}
 .wingding-desc{
     padding: 20px 20px 10px 10px;
     font-family:geneo-light;
