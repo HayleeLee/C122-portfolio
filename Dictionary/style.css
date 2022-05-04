@@ -183,7 +183,7 @@ body {
 }
 .result h3 {
     font-size: 30px;
-            font-family:'wingding';
+            font-family:'geneo-light';
     color: #1f194c;
         letter-spacing:1.5px;
 
@@ -214,12 +214,16 @@ body {
 .word-meaning {
     color: #3A3C54;
 font-family:'wingding';
+    font-size:16px;
+     text-transform: lowercase; 
+
 }
 .word-example {
     color: #3A3C54;
     font-style: italic;
 font-family:'wingding';
     line-height:1.5;
+ text-transform: lowercase; 
 
     border-left: 3px solid #1f194c;
     padding-left: 20px;
@@ -227,6 +231,8 @@ font-family:'wingding';
 }
 .error {
     margin-top: 80px;
+     text-transform: lowercase; 
+
     text-align: center;
 }
 .img{
