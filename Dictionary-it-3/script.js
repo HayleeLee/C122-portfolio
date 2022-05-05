@@ -28,10 +28,31 @@ btn.addEventListener("click", () => {
                 <p class="word-meaning">
                    ${data[0].meanings[0].definitions[0].definition}
                 </p>
+                
 
                 <p class="word-example">
                     ${data[0].meanings[0].definitions[0].example || ""}
-                </p>`;
+                </p><br><br><br><div class="border-1"></div><br><br><br>
+
+            <div class="word-1">
+                    <h3 class="english">${inpWord}</h3>
+                    <button onclick="playSound()">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                </div>
+                <div class="details">
+                    <p>${data[0].meanings[0].partOfSpeech}</p>
+                    <p>/${data[0].phonetic}/</p>
+                </div>
+                <p class="word-meaning-1">
+                   ${data[0].meanings[0].definitions[0].definition}
+                </p>
+                
+
+                <p class="word-example-1">
+                    ${data[0].meanings[0].definitions[0].example || ""}
+                </p>
+`;
             sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
         })
         .catch(() => {

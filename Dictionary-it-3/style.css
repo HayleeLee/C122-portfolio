@@ -82,6 +82,9 @@ body {
     height:90px;
     border-bottom:solid 1px #6E7973;
     position:fixed;
+    top:0px;
+    background-color: #A5AAA8;
+
     
     
 }
@@ -91,6 +94,7 @@ body {
     color: #3A3C54;
      padding:0px;
     margin:20px;
+    background-color: #A5AAA8;
 
 }
 
@@ -101,7 +105,9 @@ body {
     width:600px;
     color:#3A3C54;
     border-left:solid 1px #6E7973;
-    padding-left:20px;
+    padding-left:20px;   
+    background-color: #A5AAA8;
+
 }
 .title-top span{
        font-family:wingding;
@@ -115,7 +121,7 @@ body {
     padding: 50px 30px;
 }
 .wingding-index{
-    position:absolute;
+    position:fixed;
     right:-750px;
     top:100px;
     background-color:#001583;
@@ -174,6 +180,9 @@ font-family:'geneo-bold';
     margin-left:20px;
     padding-bottom:20px;
 
+}
+.wingding-desc span{
+    font-family:'wingdings';
 }
 
 .wingding-desc-1{
@@ -243,7 +252,7 @@ font-family:'geneo-bold';
 
 }
 .result {
-    position: relative;
+    /*position: relative;*/
 }
 .result h3 {
     font-size: 30px;
@@ -253,9 +262,10 @@ font-family:'geneo-bold';
 
 }
 .result .word {
-    display: flex;
-    justify-content: space-between;
+  /*  display: flex;
+    /*justify-content: space-between;*/
     margin-top: 30px;
+    width:800px;
 
 }
 .result button {
@@ -267,20 +277,24 @@ font-family:'geneo-bold';
 }
 .result .details {
     display: flex;
-    gap: 10px;
     color: #FFE142;
         letter-spacing:1.5px;
 
     margin: 5px 0 20px 0;
     font-family:'geneo-book';
     font-size: 14px;
+        width:600px;
+
 }
+
 .word-meaning {
     color: #3A3C54;
 font-family:'wingdings';
     font-size:18px;
     line-height:1.3;
      text-transform: lowercase; 
+        width:500px;
+
 
 }
 .word-example {
@@ -293,6 +307,7 @@ font-family:'wingdings';
     border-left: 3px solid #1f194c;
     padding-left: 20px;
     margin-top: 30px;
+    width:400px;
 }
 .error {
     margin-top: 80px;
@@ -300,12 +315,49 @@ font-family:'wingdings';
 
     text-align: center;
 }
+.word-1{
+        width:800px;
+
+}
+.word-1 .english{
+      font-size: 30px;
+            font-family:'geneo-bold';
+    color: #1f194c;
+        letter-spacing:1.5px;
+    
+}
+.word-meaning-1 {
+    color: #3A3C54;
+font-family:'geneo-book';
+    font-size:18px;
+    line-height:1.3;
+     text-transform: lowercase; 
+    width:500px;
+
+}
+.word-example-1 {
+    color: #3A3C54;
+    font-style: italic;
+font-family:'geneo-bold';
+    line-height:1.5;
+ text-transform: lowercase; 
+
+    border-left: 3px solid #1f194c;
+    padding-left: 20px;
+    margin-top: 30px;
+    width:400px;
+}
 .img{
     margin-top:50px;
     width:580px;
     height:300px;
     border:#656565 solid 1px;
     background-size:cover;
+}
+.border-1{
+    width:550px;
+    height:1px;
+    background-color:#6E7973;
 }
 
 @media only screen and (max-width: 800px) {
