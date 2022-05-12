@@ -79,7 +79,7 @@ body {
     display:flex;
     width:100%;
     margin:10px;
-    height:90px;
+    height:120px;
     border-bottom:solid 1px #6E7973;
     position:fixed;
     top:0px;
@@ -90,19 +90,19 @@ body {
 }
 .title-top .title-1{
      font-family:'geneo-bold';
-    font-size:17px;
+    font-size:18px;
     color: #3A3C54;
      padding:0px;
-    margin:20px;
+    margin:10px 20px;
     background-color: #A5AAA8;
 
 }
 
 .title-top .title-desc{
     font-family:'geneo-book';
-    margin:20px;
-    font-size:14px;
-    width:600px;
+    margin:10px 20px;
+    font-size:16px;
+    width:760px;
     color:#3A3C54;
     border-left:solid 1px #6E7973;
     padding-left:20px;   
@@ -117,13 +117,13 @@ body {
 .container {
     background-color: #A5AAA8;
     width: 40%;
-    margin-top:100px;
+    margin-top:120px;
     padding: 50px 30px;
 }
 .wingding-index{
     position:fixed;
     right:-750px;
-    top:100px;
+    top:130px;
     background-color:#001583;
     height:100vh;
     width:56%;
@@ -361,8 +361,7 @@ font-family:'geneo-bold';
 
 @media only screen and (max-width: 600px) {
 .container {
-   
-    margin-top:130px;
+    margin-top:230px;
     background-color: #A5AAA8;
     width: 100%;
     height:500px;
@@ -370,7 +369,7 @@ font-family:'geneo-bold';
 }
 .wingding-index{
     position:absolute;
-    top:200px;
+    top:250px;
     right:-480px;
     background-color:#001583;
     height:120vh;
@@ -398,7 +397,7 @@ font-family:'geneo-bold';
 .title-top{
     display:flex;
     width:100%;
-    height:150px;
+    height:240px;
 
     border-bottom:solid 1px #6E7973;
     position:fixed;
@@ -412,7 +411,7 @@ font-family:'geneo-bold';
      font-family:'geneo-bold';
     font-size:17px;
     color: #3A3C54;
-     padding:20px 0px 20px 0px;
+     padding:10px 0px 10px 0px;
     background-color: #A5AAA8;
 
 }
