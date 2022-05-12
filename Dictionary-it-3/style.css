@@ -125,7 +125,6 @@ body {
     right:-750px;
     top:100px;
     background-color:#001583;
-    border-left:#d8d8d8 solid 1px;
     height:100vh;
     width:56%;
 }
@@ -360,11 +359,10 @@ font-family:'geneo-bold';
     background-color:#6E7973;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 .container {
-    position:absolute;
-    left:0px;
-    top:0px;
+   
+    margin-top:130px;
     background-color: #A5AAA8;
     width: 100%;
     height:500px;
@@ -372,11 +370,10 @@ font-family:'geneo-bold';
 }
 .wingding-index{
     position:absolute;
-    top:500px;
-    left:0px;
+    top:200px;
+    right:-480px;
     background-color:#001583;
-    border-left:#d8d8d8 solid 1px;
-    height:150vh;
+    height:120vh;
     width:100%;
 }
 .wingding-alph tr td{
@@ -397,5 +394,43 @@ font-family:'geneo-bold';
     margin-left:20px;
     padding-bottom:20px;
 
+}
+.title-top{
+    display:flex;
+    width:100%;
+    height:150px;
+
+    border-bottom:solid 1px #6E7973;
+    position:fixed;
+    top:0px;
+    background-color: #A5AAA8;
+
+    
+    
+}
+.title-top .title-1{
+     font-family:'geneo-bold';
+    font-size:17px;
+    color: #3A3C54;
+     padding:20px 0px 20px 0px;
+    background-color: #A5AAA8;
+
+}
+
+.title-top .title-desc{
+    font-family:'geneo-book';
+    margin:20px;
+    font-size:14px;
+    width:600px;
+    color:#3A3C54;
+    border-left:solid 1px #6E7973;
+    padding-left:20px;   
+    background-color: #A5AAA8;
+
+}
+.title-top span{
+       font-family:wingding;
+    font-size:17px;
+    
 }
 }
