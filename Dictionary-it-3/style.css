@@ -368,7 +368,7 @@ font-family:'geneo-bold';
     padding: 50px 30px;
 }
 .wingding-index{
-    position:absolute;
+    position:fixed;
     top:250px;
     right:-480px;
     background-color:#001583;
@@ -432,4 +432,63 @@ font-family:'geneo-bold';
     font-size:17px;
     
 }
+    
+.result h3 {
+    font-size: 26px;
+            font-family:'wingding';
+    color: #1f194c;
+        letter-spacing:1.5px;
+
+}
+    .result .details {
+    display: flex;
+    color: #FFE142;
+        letter-spacing:1.5px;
+
+    margin: 5px 0 20px 0;
+    font-family:'geneo-book';
+    font-size: 14px;
+        width:500px;
+
+}
+
+.word-meaning {
+    color: #3A3C54;
+font-family:'wingdings';
+    font-size:18px;
+    line-height:1.3;
+     text-transform: lowercase; 
+        width:400px;
+
+
+}
+    
+    .word-1 .english{
+      font-size: 26px;
+            font-family:'geneo-bold';
+    color: #1f194c;
+        letter-spacing:1.5px;
+    
+}
+    
+    .word-meaning-1 {
+    color: #3A3C54;
+font-family:'geneo-book';
+    font-size:18px;
+    line-height:1.3;
+     text-transform: lowercase; 
+    width:430px;
+
+}
+.word-example-1 {
+    color: #3A3C54;
+    font-style: italic;
+font-family:'geneo-bold';
+    line-height:1.5;
+ text-transform: lowercase; 
+
+    border-left: 3px solid #1f194c;
+    padding-left: 20px;
+    margin-top: 30px;
+    width:390px;
 }
