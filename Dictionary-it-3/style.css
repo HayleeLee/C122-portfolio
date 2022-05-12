@@ -311,8 +311,9 @@ font-family:'wingdings';
 .error {
     margin-top: 80px;
      text-transform: lowercase; 
-
-    text-align: center;
+    width:400px;
+    line-height:1.5;
+    text-align: left;
 }
 .word-1{
         width:800px;
