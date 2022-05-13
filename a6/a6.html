@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="a6.css" />
+        <title>Countdown to the End of Time</title>
+    </head>
+    <body>
+        <script>
+ 
+        function clock(){
+            let d= new Date();
+            let h = d.getHours();
+            let m = d.getMinutes();
+            let s = d.getSeconds();
+            
+            let time = document.querySelector('.time');
+            let date = document.querySelector('.date');
+            
+            if(h == 0){
+                h = 12;
+            }
+            
+            if(h > 12){
+                h = h - 12;
+            }
+            
+             if(h < 10){
+                h = '0' + h;
+            }
+            
+             if(m < 10){
+                m = '0' + m;
+            }
+            
+             if(s < 10){
+                s = '0' + s;
+            }
+            
+            time.innerHTML = h + ':' + m;
+            
+        let months = [
+            '01',
+            '02',
+            '03',
+            '04',
+            '05',
+            '06',
+            '07',
+            '08',
+            '09',
+            '10',
+            '11',
+            '12',
+        ];
+           
+       
+            
+        date.innerHTML = months[d.getMonth()] + ' . ' + d.getDate() + ' . ' + d.getFullYear();
+
+        }
+        
+        setInterval(clock, 1000);
+            
+       
+        var Time = 10;
+        var Countdown = setInterval(function(){
+        
+            --Time;
+            document.getElementById('countdownText').innerHTML = Time;
+            
+            if (Time <= 0){
+            Time = 10;
+            }
+        }, 600);
+
+            
+        </script>
+        <div class="container">
+        <div class="left">
+        <div class="today">
+        <p class="date">00 . 00 . 00</p>
+         <h3 class="time">00:00</h3>
+        </div>
+        
+        <p class="doomcount">32,433,534,000,000<span class="x">x</span> : 0<span id="countdownText"></span></p>
+        </div>
+        
+        <div class="right">
+        <div class="dead-time">
+            <div class="dead-time-f">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-a"></h2>
+            </div>           
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-b"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-c"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-d"></h2>
+            </div>
+                        <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-e"></h2>
+            </div>
+            
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            
+            <div class="dead-time-h">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            
+            <div class="dead-time-a">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-f"></h2>
+            </div>
+                        <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-g"></h2>
+            </div>
+            <div class="dead-time-f">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+                        <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-h"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+             <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            <div class="dead-time-g">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+             <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+
+                        
+                        
+        </div>
+        </div>
+            
+             <div class="right-2">
+        <div class="dead-time">
+            <div class="dead-time-f">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-a"></h2>
+            </div>           
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-b"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-c"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-d"></h2>
+            </div>
+                        <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-e"></h2>
+            </div>
+            
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            
+            <div class="dead-time-h">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            
+            <div class="dead-time-a">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-f"></h2>
+            </div>
+                        <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-g"></h2>
+            </div>
+            <div class="dead-time-f">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+                        <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time-h"></h2>
+            </div>
+            <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+             <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+            <div class="dead-time-g">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+             <div class="dead-time-1">
+            <p class="blank-date">00 . 00 . 00</p>
+            <h2 class="blank-time"></h2>
+            </div>
+
+                        
+                        
+        </div>
+        </div>
+            <img class="bottom" src="bar-3.png">
+        </div>
+    </body>

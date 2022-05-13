@@ -1,0 +1,317 @@
+@font-face {
+  font-family:rasa;
+  src:url(Rasa.ttf);
+}
+
+@font-face {
+  font-family:rasa-italic;
+  src:url(Rasa-Italic.ttf);
+}
+
+@font-face {
+  font-family:micro-grotesk;
+  src:url(MicroGrotesk.ttf);
+}
+@font-face {
+  font-family:alegreya-italic;
+  src:url(Alegreya-Italic.ttf);
+}
+
+@font-face {
+  font-family:cabinet;
+  src:url(CabinetGrotesk-Regular.ttf);
+}
+body{
+    background-color: #ffffff;
+}
+
+.blank-time:before{
+    content: '--:-0';
+    font-size: 16px;
+    animation-name: head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "--:--"}
+    75% {font-size:16px;opacity:1; content: "--:-1"}
+    100% {font-size:16px;opacity:1; content: "--:--"}
+}
+
+.blank-time-a:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head-01 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "00:00"}
+    75% {font-size:16px;opacity:1; content: "00:70"}
+    100% {font-size:16px;opacity:1; content: "00:-0"}
+
+}
+
+.blank-time-b:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-02;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    writing-mode: vertical-lr;
+        text-shadow:2px 2px 5px #aeaeae;
+   
+}
+
+@keyframes head-02 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "00:00"}
+    75% {font-size:16px;opacity:1; content: "00:20"}
+    100% {font-size:16px;opacity:1; content: "00:-0"}
+
+}
+.blank-time-c:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-03;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head-03 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "00:00"}
+    75% {font-size:16px;opacity:1; content: "04:00"}
+    100% {font-size:16px;opacity:1; content: "0-:00"}
+
+}
+.blank-time-d:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-04;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    writing-mode: vertical-lr;
+    text-shadow:2px 2px 5px #aeaeae;
+}
+
+
+@keyframes head-04 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "00:00"}
+    75% {font-size:16px;opacity:1; content: "00:50"}
+    100% {font-size:16px;opacity:1; content: "00:-0"}
+
+}
+
+
+
+.blank-time-e:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-05;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    text-shadow:2px 2px 5px #aeaeae;
+
+}
+
+@keyframes head-05 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "--:--"}
+    75% {font-size:16px;opacity:1; content: "--:-1"}
+    100% {font-size:16px;opacity:1; content: "--:--"}
+}
+
+.blank-time-f:before{
+    content: '--:--';
+    font-size: 16px;
+    animation-name: head-06;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    writing-mode: vertical-lr;
+        text-shadow:2px 2px 5px #aeaeae;
+}
+
+@keyframes head-06 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "--:--"}
+    75% {font-size:16px;opacity:1; content: "--:-1"}
+    100% {font-size:16px;opacity:1; content: "--:--"}
+
+}
+
+.blank-time-g:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-07;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+        text-shadow:2px 2px 5px #aeaeae;
+}
+
+@keyframes head-07 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "00:00"}
+    75% {font-size:16px;opacity:1; content: "00:40"}
+    100% {font-size:16px;opacity:1; content: "00:-0"}
+
+}
+
+.blank-time-h:before{
+    content: '00:00';
+    font-size: 16px;
+    animation-name: head-08;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    writing-mode: vertical-lr;    text-shadow:2px 2px 5px #aeaeae;
+}
+
+@keyframes head-08 {
+    0% {font-size:16px; opacity:1;}
+    50%{font-size:16px; opacity:1; content: "00:00"}
+    75% {font-size:16px;opacity:1; content: "00:30"}
+    100% {font-size:16px;opacity:1; content: "00:-0"}
+
+}
+
+.container{
+    width:100%;
+    height:96vh;
+    padding:10px;
+    position:relative;
+}
+
+.left{
+    position:absolute;
+    left:20px;
+    bottom:50px;
+}
+
+.right{
+    position:absolute;
+    right:20px;
+    bottom:50px;
+
+}
+.right-2{
+    position:absolute;
+    right:5px;
+    bottom:80px;
+}
+.bottom{
+    display:block;
+    width:100%;
+    position:absolute;
+    bottom:20px;
+
+}
+
+.dead-time{
+    width:900px;
+    text-align:right;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.dead-time-1{
+    margin:5 5px;
+    width:300px;
+}
+.blank-time{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+}
+.blank-time-a{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-b{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-c{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-d{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-e{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-f{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-g{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    
+}
+.blank-time-h{
+    font-family:'micro-grotesk';
+        letter-spacing:-1px;
+
+      font-weight:lighter;
+    
+}
+.time{
+    font-family:'micro-grotesk';
+      font-weight:lighter;
+        letter-spacing:-1px;
+
+    font-size:16px;
+}
+.date{
+    font-family:'rasa';
+    font-size:18px;
+}
+.blank-date{
+    font-family:'rasa';
+        font-size:16px;
+
+}
+.doomcount{
+    font-family:'micro-grotesk';
+    font-weight:lighter;
+    letter-spacing:-1px;
+    font-size:23px;
+
+}
+
+.doomcount .x{
+    font-family:'rasa';
+    font-weight:lighter;
+    letter-spacing:-1px;
+    font-size:23px;
+
+}
