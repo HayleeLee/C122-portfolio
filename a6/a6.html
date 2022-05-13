@@ -65,14 +65,14 @@
         setInterval(clock, 1000);
             
        
-        var Time = 10;
+        var Time = 60;
         var Countdown = setInterval(function(){
         
             --Time;
             document.getElementById('countdownText').innerHTML = Time;
             
             if (Time <= 0){
-            Time = 10;
+            Time = 60;
             }
         }, 600);
 
@@ -85,7 +85,7 @@
          <h3 class="time">00:00</h3>
         </div>
         
-        <p class="doomcount">32,433,534,000,000<span class="x">x</span> : 0<span id="countdownText"></span></p>
+        <p class="doomcount">32,433,534,000,000<span class="x">x : xx : </span> <span id="countdownText"></span></p>
         </div>
         
         <div class="right">
