@@ -22,14 +22,7 @@ height:100px;
 /*border:black solid 1px;*/
     
 }
-.phonetic{
-margin: auto;
-  width: 0.5%;
-  padding: 10px;
-    font-size:14px;
-font-family:'gowun';
-  /*  border:solid black 1px;*/
-}
+
 img{
     width:100%;
     display:inline;
