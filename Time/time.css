@@ -4,7 +4,7 @@
     width:100%;
     height:10px;
     background-color:#B1000B;
-    animation: wah 10s linear infinite;
+    animation: wah 86400s linear infinite;
 
 }
 @keyframes wah{
@@ -19,7 +19,8 @@
     right:30%;
     }
     80%{right:20%}
-    100%{right:10%;}
+    90%{right:10%}
+    100%{right:0%;}
 
 }
 
