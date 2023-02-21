@@ -1,0 +1,645 @@
+@font-face {
+  font-family:gowun;
+  src:url(GowunBatang-Regular.ttf);
+}
+
+.container{
+    margin:auto;
+    /*border:black solid 1px;*/
+    width:100%;
+    height:1000vh;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+/*border:red solid 1px;*/
+    height:200px;
+    margin-top:30px;
+
+}
+
+
+.cell{
+    width:16.5%;
+height:100px;
+/*border:black solid 1px;*/
+    
+}
+.phonetic{
+margin: auto;
+  width: 0.5%;
+  padding: 10px;
+    font-size:14px;
+font-family:'gowun';
+  /*  border:solid black 1px;*/
+}
+img{
+    width:100%;
+    display:inline;
+}
+.img-1{
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+
+.cell-blank{
+    width:16%;
+    display:inline;
+    height:180px;
+   /* border:solid black 1px;*/
+    padding-top:20px
+}
+
+.animate1{
+    animation: animate1 1s linear;
+
+}
+
+@keyframes animate1{
+    0% {opacity:5%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate2{
+    animation: animate2 2s linear;
+
+}
+
+@keyframes animate2{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate3{
+    animation: animate3 3s linear;
+
+}
+
+@keyframes animate3{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate4{
+    animation: animate4 4s linear;
+
+}
+
+@keyframes animate4{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate5{
+    animation: animate5 5s linear;
+
+}
+
+@keyframes animate5{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate6{
+    animation: animate6 6s linear;
+
+}
+
+@keyframes animate6{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate7{
+    animation: animate7 7s linear;
+
+}
+
+@keyframes animate7{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate8{
+    animation: animate8 8s linear;
+
+}
+
+@keyframes animate8{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate9{
+    animation: animate9 9s linear;
+
+}
+
+@keyframes animate9{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate10{
+    animation: animate10 10s linear;
+
+}
+
+@keyframes animate10{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate11{
+    animation: animate11 11s linear;
+
+}
+
+@keyframes animate11{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate12{
+    animation: animate12 12s linear;
+
+}
+
+@keyframes animate12{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate13{
+    animation: animate13 13s linear;
+
+}
+
+@keyframes animate13{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate14{
+    animation: animate14 14s linear;
+
+}
+
+@keyframes animate14{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate15{
+    animation: animate15 15s linear;
+
+}
+
+@keyframes animate15{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate16{
+    animation: animate16 16s linear;
+
+}
+
+@keyframes animate16{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate17{
+    animation: animate17 17s linear;
+
+}
+
+@keyframes animate17{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate18{
+    animation: animate18 18s linear;
+
+}
+
+@keyframes animate18{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate19{
+    animation: animate19 19s linear;
+
+}
+
+@keyframes animate19{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate20{
+    animation: animate20 20s linear;
+
+}
+
+@keyframes animate20{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate21{
+    animation: animate21 21s linear;
+
+}
+
+@keyframes animate21{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate22{
+    animation: animate22 22s linear;
+
+}
+
+@keyframes animate22{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate23{
+    animation: animate23 23s linear;
+
+}
+
+@keyframes animate23{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate24{
+    animation: animate24 24s linear;
+
+}
+
+@keyframes animate24{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate25{
+    animation: animate25 25s linear;
+
+}
+
+@keyframes animate25{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate26{
+    animation: animate26 26s linear;
+
+}
+
+@keyframes animate26{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate27{
+    animation: animate27 27s linear;
+
+}
+
+@keyframes animate27{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate28{
+    animation: animate28 28s linear;
+
+}
+
+@keyframes animate28{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate29{
+    animation: animate29 29s linear;
+
+}
+
+@keyframes animate29{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate30{
+    animation: animate30 30s linear;
+
+}
+
+@keyframes animate30{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate31{
+    animation: animate31 31s linear;
+
+}
+
+@keyframes animate31{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate32{
+    animation: animate32 32s linear;
+
+}
+
+@keyframes animate32{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate33{
+    animation: animate33 33s linear;
+
+}
+
+@keyframes animate33{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate34{
+    animation: animate34 34s linear;
+
+}
+
+@keyframes animate34{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate35{
+    animation: animate35 35s linear;
+
+}
+
+@keyframes animate35{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate36{
+    animation: animate36 36s linear;
+
+}
+
+@keyframes animate36{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate37{
+    animation: animate37 37s linear;
+
+}
+
+@keyframes animate37{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate38{
+    animation: animate38 38s linear;
+
+}
+
+@keyframes animate38{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate39{
+    animation: animate39 39s linear;
+
+}
+
+@keyframes animate39{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate40{
+    animation: animate40 40s linear;
+
+}
+
+@keyframes animate40{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate41{
+    animation: animate41 41s linear;
+
+}
+
+@keyframes animate41{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate42{
+    animation: animate42 42s linear;
+
+}
+
+@keyframes animate42{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate43{
+    animation: animate43 43s linear;
+
+}
+
+@keyframes animate43{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate44{
+    animation: animate44 44s linear;
+
+}
+
+@keyframes animate44{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate45{
+    animation: animate45 45s linear;
+
+}
+
+@keyframes animate45{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate46{
+    animation: animate46 46s linear;
+
+}
+
+@keyframes animate46{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate47{
+    animation: animate47 47s linear;
+
+}
+
+@keyframes animate47{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate48{
+    animation: animate48 48s linear;
+
+}
+
+@keyframes animate48{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.circle{
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background-color:black;
+    margin: auto;
+
+}
