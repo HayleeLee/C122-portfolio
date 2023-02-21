@@ -28,8 +28,7 @@ img{
     display:inline;
 }
 input{
-    width:100px;
-    height:100px;
+  width:100%;
     display:inline-block;
 }
 
