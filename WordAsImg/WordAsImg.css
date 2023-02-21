@@ -38,6 +38,11 @@ img{
     width:100%;
     display:inline;
 }
+.img-1{
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
 
 .cell-blank{
     width:16%;

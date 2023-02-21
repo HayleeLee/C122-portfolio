@@ -7,10 +7,26 @@
     </head>
 <body>
     
+
+<script>
+var audio = new Audio("audio.mp3");
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = true;
+
+audio.onended = function(){
+audio.play();
+}
+</script>
+    
+    
     <div class="container">
     <div class="row">
     <div class="cell animate1">
-        <div class="img"><img src="img2/1%EC%9D%B8.png"></div>
+        <div class="img"><input type="image" src="img2/1%EC%9D%B8.png" onclick="audio.play()"></div>
     </div>
     <div class="cell-blank animate2">
        <!-- <div class="circle"></div>-->
