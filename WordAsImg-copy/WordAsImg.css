@@ -1,7 +1,3 @@
-@font-face {
-  font-family:gowun;
-  src:url(GowunBatang-Regular.ttf);
-}
 
 .container{
     margin:auto;
@@ -38,7 +34,7 @@ img{
     width:100%;
     display:inline;
 }
-.img-1{
+input{
     width:100px;
     height:100px;
     display:inline-block;
