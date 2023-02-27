@@ -623,6 +623,152 @@ input{
 
 
 }
+
+.animate49{
+    animation: animate49 49s linear;
+
+}
+
+@keyframes animate49{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+
+.animate50{
+    animation: animate50 50s linear;
+
+}
+
+@keyframes animate50{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate51{
+    animation: animate51 51s linear;
+
+}
+
+@keyframes animate51{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate52{
+    animation: animate52 52s linear;
+
+}
+
+@keyframes animate52{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate53{
+    animation: animate53 53s linear;
+
+}
+
+@keyframes animate53{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate54{
+    animation: animate54 54s linear;
+
+}
+
+@keyframes animate54{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate55{
+    animation: animate55 55s linear;
+
+}
+
+@keyframes animate55{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate56{
+    animation: animate56 56s linear;
+
+}
+
+@keyframes animate56{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate57{
+    animation: animate57 57s linear;
+
+}
+
+@keyframes animate57{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate58{
+    animation: animate58 58s linear;
+
+}
+
+@keyframes animate58{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate59{
+    animation: animate59 59s linear;
+
+}
+
+@keyframes animate59{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
+.animate60{
+    animation: animate60 60s linear;
+
+}
+
+@keyframes animate60{
+    0% {opacity:0%;}
+    99% {opacity:0%;}
+    100%{opacity:100%;}
+
+
+}
 .circle{
     width:5px;
     height:5px;
