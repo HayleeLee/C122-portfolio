@@ -1,3 +1,35 @@
+@font-face {
+  font-family:nanumbarun;
+  src:url(NanumBarunGothic.ttf);
+}
+@font-face {
+  font-family:nanumbarun-bold;
+  src:url(NanumBarunGothicBold.ttf);
+}
+@font-face {
+  font-family:nanumbarun-light;
+  src:url(NanumBarunGothicLight.ttf);
+}
+@font-face {
+  font-family:nanumbarun-ultralight;
+  src:url(NanumBarunGothicUltraLight.ttf);
+}
+@font-face {
+  font-family:eland-b;
+  src:url(ELAND-B.ttf);
+}
+@font-face {
+  font-family:eland-l;
+  src:url(ELAND-L.ttf);
+}
+@font-face {
+  font-family:eland-m;
+  src:url(ELAND-M.ttf);
+}
+@font-face {
+  font-family:gothica1_regular;
+  src:url(GothicA1-Regular.ttf);
+}
 .container{
     margin:auto;
     /*border:black solid 1px;*/
@@ -31,9 +63,12 @@ img{
     height:130px;
 }
 .cell-title{
+    font-family:'gothica1-regular';
     font-size: 100px;
+    text-align:center;
 }
 .phonetic{
+    font-family:'gothica1-regular';
     font-size:18px;
     margin:auto;
     text-align: center;
