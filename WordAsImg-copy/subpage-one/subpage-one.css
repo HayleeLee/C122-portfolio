@@ -1,4 +1,8 @@
 @font-face {
+  font-family:test;
+  src:url(KoreanMouth-Regular.otf);
+}
+@font-face {
   font-family:nanumbarun;
   src:url(NanumBarunGothic.ttf);
 }
@@ -73,4 +77,10 @@ img{
     margin:auto;
     text-align: center;
     padding:14px 0px;
+}
+input[type="text"]
+{
+    font-size:24px;
+    border-bottom: solid black 1px;
+    font-family: 'test';
 }
