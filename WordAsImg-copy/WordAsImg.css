@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family:gothica1_medium;
+  src:url(GothicA1-Medium.ttf);
+}
 .container{
     margin:auto;
     /*border:black solid 1px;*/
@@ -11,7 +14,8 @@
     flex-wrap: wrap;
 /*border:red solid 1px;*/
     height:200px;
-    margin-top:30px;
+    margin-top:70px;
+
 
 }
 
@@ -19,10 +23,37 @@
 .cell{
     width:16.5%;
 height:100px;
+    padding:10px 0px;
 /*border:black solid 1px;*/
     
 }
+.phonetic{
+    margin:auto;
+    text-align: center;
+    padding:14px 0px;
+}
+.kr{
+    display:inline-block;
+    font-family:'gothica1-regular';
+    font-size:20px;
+/*    border:black solid 1px;*/
+    padding:0px 8px;
+}
+.eng{
+    display:inline-block;
+    font-family:'helvetica';
+    font-size:22px;
+/*    border:black solid 1px;*/
+    padding:0px 8px
+}
+.circle{
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background-color:black;
+    margin: auto;
 
+}
 img{
     width:100%;
     display:inline;
@@ -33,11 +64,12 @@ input{
 }
 
 .cell-blank{
-    width:16%;
+    width:16.5%;
     display:inline;
     height:180px;
    /* border:solid black 1px;*/
-    padding-top:20px
+        padding:10px 0px;
+
 }
 
 .animate1{
@@ -767,13 +799,5 @@ input{
     99% {opacity:0%;}
     100%{opacity:100%;}
 
-
-}
-.circle{
-    width:5px;
-    height:5px;
-    border-radius:50%;
-    background-color:black;
-    margin: auto;
 
 }
