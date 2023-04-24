@@ -45,7 +45,7 @@
     font-size: 180px;
     white-space: wrap;
     overflow: hidden;
-    animation: typewriter2 6s steps(40, end),
+    animation: typewriter2 12s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
