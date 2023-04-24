@@ -19,6 +19,7 @@
     font-family:'Helvetica';
     color:black;
     font-size:24px;
+    text-decoration: none;
 }
 .text{
      display: flex;
@@ -32,7 +33,7 @@
     white-space: wrap;
     overflow: hidden;
     animation: typewriter 5s steps(60, end),
-    blink-caret .75s step-end infinite;
+    blink-caret 1.25s step-end infinite;
 }
 @keyframes typewriter {
     0% {
