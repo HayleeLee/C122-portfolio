@@ -11,6 +11,9 @@
     height:1000vh;
    
 }
+.link{
+    font-family:'helvetica';
+}
 .text{
      display: flex;
     width:100%;
@@ -45,7 +48,7 @@
     font-size: 180px;
     white-space: wrap;
     overflow: hidden;
-    animation: typewriter2 1s steps(40, end),
+    animation: typewriter2 10.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
