@@ -25,6 +25,14 @@
     animation: typewriter 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+@keyframes typewriter {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
 
 .text2{
      display: flex;
@@ -37,15 +45,15 @@
     font-size: 180px;
     white-space: wrap;
     overflow: hidden;
-    animation: typewriter 3.5s steps(40, end),
+    animation: typewriter2 4s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
-@keyframes typewriter {
+@keyframes typewriter2 {
     0% {
         width: 0;
     }
-    10%{
+    99%{
         width: 0;
     }
     100% {
