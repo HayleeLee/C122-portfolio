@@ -2,6 +2,10 @@
   font-family:KoreanPhonetic;
   src:url(KoreanPhonetic.ttf);
 }
+@font-face {
+  font-family:Helvetica;
+  src:url(Helvetica.ttf);
+}
 
 .container{
 
@@ -12,7 +16,8 @@
    
 }
 .link{
-    font-family:'helvetica';
+    font-family:'Helvetica';
+    color:black;
 }
 .text{
      display: flex;
@@ -56,7 +61,7 @@
     0% {
         width: 0;
     }
-    15%{
+    60%{
         width: 0;
     }
     100% {
