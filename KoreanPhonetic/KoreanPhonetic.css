@@ -20,7 +20,7 @@
     margin-top:70px;
     font-family:'KoreanPhonetic';
     font-size: 180px;
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     animation: typewriter 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
