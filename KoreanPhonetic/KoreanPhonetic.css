@@ -59,8 +59,11 @@
 }
 
 @keyframes typewriter2 {
-    20%{
+    0%{
         width: 0;
+    }
+    20%{
+        width:0;
     }
     100% {
         width: 100%;
