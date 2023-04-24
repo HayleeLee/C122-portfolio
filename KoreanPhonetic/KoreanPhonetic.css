@@ -22,8 +22,8 @@
     font-size: 180px;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2s steps(40) 1s 1 normal both,
-    blinkTextCursor 500ms steps(40) infinite normal;
+    animation: typewriter 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
 @keyframes typewriter {
