@@ -31,7 +31,7 @@
     font-size: 180px;
     white-space: wrap;
     overflow: hidden;
-    animation: typewriter 3.5s steps(40, end),
+    animation: typewriter 5s steps(60, end),
     blink-caret .75s step-end infinite;
 }
 @keyframes typewriter {
