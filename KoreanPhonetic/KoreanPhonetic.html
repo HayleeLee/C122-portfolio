@@ -5,7 +5,19 @@
     <title>Project5</title>
     </head>
 <body>
+<script>
+var audio = new Audio("Korean Phonetic.mp4");
 
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = true;
+
+audio.onended = function(){
+audio.play();
+}
+</script>
 <div class="link"><a href="About.html">About(에 대해서)</a>
 <a href="typewriter.html">Type it yourself(타자)</a></div>
     <div class="container">
