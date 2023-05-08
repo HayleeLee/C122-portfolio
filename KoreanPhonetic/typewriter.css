@@ -30,20 +30,12 @@
     height:400vh;
    
 }
-.container2{
+
+input[type=text] {
     width:100%;
-    display:flex;
-}
-.text{
-    width:505px;
-    margin-top:20px;
-    margin-right:130px;
-    font-family:Helvetica;
-    font-size:18px;
-    color:black;
-}
-img{
-    display:block;
-    width:1178px;
-    margin-top:100px;
+  border:none;
+border-bottom: 1px solid black;
+    font-family:KoreanPhonetic;
+    font-size:100px;
+
 }
