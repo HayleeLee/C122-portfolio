@@ -16,6 +16,7 @@
     text-decoration: none;
     font-family:Helvetica;
     font-size:18px;
+    padding-bottom: 20px;
 }
 
 .container2 {
@@ -139,6 +140,49 @@
 .hiders p:nth-child(31) {
   animation-delay: 60s;
 }
+.hiders p:nth-child(32) {
+  animation-delay: 62s;
+}
+.hiders p:nth-child(33) {
+  animation-delay: 64s;
+}
+.hiders p:nth-child(34) {
+  animation-delay: 66s;
+}
+.hiders p:nth-child(35) {
+  animation-delay: 68s;
+}
+.hiders p:nth-child(36) {
+  animation-delay: 70s;
+}
+.hiders p:nth-child(37) {
+  animation-delay: 72s;
+}
+.hiders p:nth-child(38) {
+  animation-delay: 74s;
+}
+.hiders p:nth-child(39) {
+  animation-delay: 76s;
+}
+.hiders p:nth-child(40) {
+  animation-delay: 78s;
+}
+.hiders p:nth-child(41) {
+  animation-delay: 80s;
+}
+.hiders p:nth-child(42) {
+  animation-delay: 82s;
+}
+.hiders p:nth-child(43) {
+  animation-delay: 84s;
+}
+.hiders p:nth-child(44) {
+  animation-delay: 86s;
+}
+.hiders p:nth-child(45) {
+  animation-delay: 88s;
+}
+
 
 
 .container{
