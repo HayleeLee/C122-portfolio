@@ -12,8 +12,23 @@
     to { width: 0 }
 
 }
+.link{
+    width:100%;
+    position:relative;
+}
 .link a{
     text-decoration: none;
+    font-family:Helvetica;
+    font-size:18px;
+    padding-bottom: 100px;
+    padding-right:40px;
+    color:black;
+}
+.link a:nth-child(3){
+    position:absolute;
+    left:10px;
+    top:0px;
+        text-decoration: none;
     font-family:Helvetica;
     font-size:18px;
     padding-bottom: 100px;
