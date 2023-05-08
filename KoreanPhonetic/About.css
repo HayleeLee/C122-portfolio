@@ -1,0 +1,48 @@
+@font-face {
+  font-family:KoreanPhonetic;
+  src:url(KoreanPhonetic.ttf);
+}
+@font-face {
+  font-family:Helvetica;
+  src:url(Helvetica.ttf);
+}
+
+@keyframes typing {
+    from { width: 100% }
+    to { width: 0 }
+
+}
+.link a{
+    text-decoration: none;
+    font-family:Helvetica;
+    font-size:18px;
+    padding-bottom: 30px;
+    padding-right:40px;
+    color:black;
+}
+
+
+.container{
+
+    margin:auto;
+    /*border:black solid 1px;*/
+    width:100%;
+    height:1000vh;
+   
+}
+.container2{
+    width:100%;
+    display:flex;
+}
+.text{
+    width:505px;
+    margin-right:130px;
+    font-family:Helvetica;
+    font-size:18px;
+    color:black;
+}
+img{
+    display:block;
+    width:1178px;
+    margin-top:180px;
+}
